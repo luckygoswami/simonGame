@@ -1,0 +1,89 @@
+h2 {
+    font-weight: normal;
+}
+
+span {
+    font-weight: bolder;
+}
+
+p {
+    position: absolute;
+    bottom: 0;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+body::-webkit-scrollbar {
+    background-color: transparent;
+}
+
+.outer-div {
+    display: flex;
+    justify-content: space-between;
+    width: 430px;
+    height: 550px;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.inner-div {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.red {
+    background-color: rgb(255, 77, 77);
+    border-bottom-right-radius: 40px;
+}
+
+.yellow {
+    background-color: rgb(250, 250, 88);
+    border-bottom-left-radius: 40px;
+}
+
+.green {
+    background-color: rgb(88, 255, 88);
+    border-top-right-radius: 40px;
+}
+
+.blue {
+    background-color: rgb(81, 81, 255);
+    border-top-left-radius: 40px;
+}
+
+.start-button {
+    border-radius: 50%;
+    height: +50px;
+    width: 50px;
+    position: relative;
+    left: 44%;
+    top: -48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.game-flash {
+    background-color: white;
+}
+
+.user-flash {
+    background-color: black;
+}
+
+.gameOver-flash {
+    background-color: red;
+}
+
+.levelUp-flash {
+    background-color: green;
+}
