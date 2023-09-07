@@ -100,7 +100,7 @@ function levelUp() {
     let ranBtn = btns[ranIdx];
     gameFlash(document.querySelector(`.${ranBtn}`));
     gameSeq.push(ranBtn);
-    console.log(gameSeq); //this is the hack
+    // console.log(gameSeq); //this is the hack
 
     h2.innerText = `Level ${level}`;
 }
@@ -128,8 +128,8 @@ for (btn of innerDiv) {
             userResponse = event.target.classList[1];
             userFlash(document.querySelector(`.${userResponse}`));
             userSeq.push(userResponse);
-            console.log(`gameseq is ${gameSeq.slice(0, userSeq.length)}`);
-            console.log(`userseq is ${userSeq}`);
+            // console.log(`gameseq is ${gameSeq.slice(0, userSeq.length)}`);
+            // console.log(`userseq is ${userSeq}`);
 
             checkAns();
         }
