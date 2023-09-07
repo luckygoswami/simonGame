@@ -100,7 +100,7 @@ function levelUp() {
     let ranBtn = btns[ranIdx];
     gameFlash(document.querySelector(`.${ranBtn}`));
     gameSeq.push(ranBtn);
-    // console.log(gameSeq); //this is the
+    // console.log(gameSeq); //this is the hack
 
     h2.innerText = `Level ${level}`;
 }
